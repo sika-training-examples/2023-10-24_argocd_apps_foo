@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: foo
     server: https://kubernetes.default.svc
-  project: default
+  project: foo
   syncPolicy:
     automated:
       prune: true
